@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Example Test Page</title>
+</head>
+  <body>
+    <div>
+      <div>  
+      
+        <div id="widget">
+        </div>
+
+      </div>
+    </div>
+    <script src="dist/widget.js"></script>
+    <script>
+        var myWidget = Widget.init({selector: "#widget"});
+        myWidget.render({arg: "00001"});
+    </script>
+  </body>
+</html>
